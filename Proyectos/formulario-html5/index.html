@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi-tienda</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Tienda</h1>
+        <nav>
+            <img src="./img/foodFast.PNG" alt="logo Mi Tienda">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Comidas y precios</h2>
+        <article>
+            <p><h3>Hamburguesa</h3></p>
+            <img src="./img/hamburguesa.jpg" alt="">
+            <p><b>Precio: $15.000</b></p>
+            <p><b>Descripción: </b>hamburguesa clasica carne, ajustable a gustos, promoción por paquete de 4 valor total $15.000.</p>
+        </article>
+        <article>
+            <p><h3>Gaseosa</h3></p>
+            <img src="./img/gasesosa.jpg" alt="">
+            <p><b>Precio: $5.000</b></p>
+            <p><b>Descripción: </b>gaseosa cocacola personal 330 ml.</p>
+        </article>
+        <article>
+            <p><h3>Perro Caliente</h3></p>
+            <img src="./img/perro.jpg" alt="">
+            <p><b>Precio: $14.500</b></p>
+            <p><b>Descripción:</b>perro caliente sencillo doble con salsas incluidas.</p>
+        </article>
+    </section>    
+    <form action="./html/gracias.html">
+        <fieldset>
+            <legend><h2>Registro y Compra</h2></legend>
+            <ul>
+                <li>
+                    <label for="nombre">Nombre:</label>
+                    <input required type="text" placeholder="Nombre" id="nombre">
+                </li>
+            <li>
+                 <label for="apellido">Apellido</label>
+                 <input required type="text" placeholder="Apellido" id="apellido">
+            </li>
+            <li>
+                <label for="identificacion">Documento de identidad:</label>
+                <input required type="number" placeholder="Identificación" id="identificacion">
+            </li>
+            <li>
+                <label for="telefono">Telefono:</label>
+                <input required type="tel" placeholder="Celular" id="telefono">
+            </li>
+            <li>
+                <label for="correo">Correo:</label>
+                <input required type="email"placeholder="Correo" id="correo">
+            </li>
+            <li>
+                <label for="producto">Producto:</label>
+                <select name="producto">
+                    <option value="hamburguesa">hamburguesa</option>
+                    <option value="gaseosa">gaseosa</option>
+                    <option value="perro">perro caliente</option>
+                </select>
+            </li>
+            <li>    
+                <label for="comentario"></label>
+                 <textarea id="comentario" cols="30" rows="10" 
+                placeholder="Comentario"></textarea>
+            </li>
+            <!-- boton de envio -->
+             <input type="submit" value="Pedir">
+        </fieldset>
+    </form>
+</body>
+</html>
