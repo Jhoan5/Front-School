@@ -1,0 +1,9 @@
+h1, h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li, dt,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

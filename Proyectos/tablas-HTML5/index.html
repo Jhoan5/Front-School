@@ -1,14 +1,10 @@
-<!-- 
-    Tema: Sui generis
-    about: Grupo de rock
-    tabla=album, nombre_cancion, año, interprete, 
- -->
  <!DOCTYPE html>
  <html lang="es">
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tablas-html5-Sui-generis</title>
+    <link rel="stylesheet" href="./css/style.css">
  </head>
  <body>
     <header>
@@ -28,7 +24,7 @@
                 </blockquote>
             </p>
         </article>
-        <table>
+        <table cellpadding="20px" cellspacing="10px">
             <thead>
                 <th>Imagen</th>
                 <th>Nombre</th>
@@ -38,7 +34,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td colspan="2"><img src="./img/vida.JPG" alt="albúm vida"></td>
+                    <td rowspan="2"><img src="./img/vida.JPG" alt="albúm vida"></td>
                     <td>Necesito</td>
                     <td>vida</td>
                     <td>1972</td>
@@ -57,7 +53,7 @@
                     <td>2000</td>
                 </tr>
                 <tr>
-                    <td colspan="2"><img src="./img/confesionesDeInvierno.JPG" alt="album Confesiones de invierno"></td>
+                    <td rowspan="2"><img src="./img/confesionesDeInvierno.JPG" alt="album Confesiones de invierno"></td>
                     <td>Rasguña las piedras</td>
                     <td>Confesiones de invierno</td>
                     <td>1973</td>
@@ -74,6 +70,7 @@
                     <td rowspan="2"><img src="./img/sui-generis.jpg" alt="Integrantes de la banda Sui Generis: Charly Garcia y Nito Mestre"></td>
                     <td><b>Canciones</b></td>
                     <td><b>Albúm</b></td>
+                    <td><b>Año</b></td>
                     <td><b>Interprete</b></td>
                 </tr>
                 <tr>

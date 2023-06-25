@@ -1,0 +1,10 @@
+h1{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}

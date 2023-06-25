@@ -1,0 +1,23 @@
+header h1, section figure{
+    text-align: center;
+}
+h1, figcaption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    text-align: justify;
+}
+p, td, th{
+    font-family: 'Times New Roman', Times, serif;
+} 
+img{
+    width: 150px;
+    height: 150px;
+}
+table{
+    text-align: center;
+    background-color: #abc;
+}
+table, thead, tbody, tfoot, th, td, tr{
+    border:1px solid green;
+}
